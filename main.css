@@ -1,0 +1,99 @@
+.main
+{
+  flex-wrap: wrap;
+width: 90%;
+margin: 2%;
+  border: 10% solid white;
+box-shadow: 12px 9px 83px 0px rgba(0,0,0,0.75);
+
+  padding: 2%;
+  border-radius: 30px;
+  background:#2980B9;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub1
+{
+  font-size: 150%;
+
+  width: 20%;
+text-align: center;
+  background: #F1948A;
+border-radius: 25px;
+ box-shadow: 9px 17px 55px -8px rgba(0,0,0,0.75);
+}
+
+.sub2
+{
+  font-size: 150%;
+
+width: 20%;
+  text-align: center;
+ background: #7FB3D5;
+ border-radius: 25px;
+ box-shadow: 9px 17px 55px -8px rgba(0,0,0,0.75);
+}
+
+.sub3
+
+{
+font-size: 150%;
+
+  width: 20%;
+  text-align: center;
+  background: #E67E22;
+  border-radius: 25px;
+  box-shadow: 9px 17px 55px -8px rgba(0,0,0,0.75);
+}
+
+body
+{
+  background: #2980B9;
+  text-align: center;
+}
+
+.img1
+{
+  overflow: hidden;
+  margin: 8px;
+  border-radius: 15px;
+  padding:2%;
+height: 55%;
+  width: 80%;
+}
+
+
+@media only screen and (max-width:768px)
+ {
+   body{
+     background: red;
+
+   }
+   a{
+     text-decoration: none;
+     color: black;
+   }
+   .main
+   {
+justify-content: space-between;
+     flex-wrap: wrap;
+
+   }
+
+.sub1
+{  display: flex;
+  width : 100%;
+}
+
+.sub2
+{  display: flex;
+  width : 100%;
+}
+
+.sub3
+{  display: flex;
+  width : 100%;
+}
+
+}

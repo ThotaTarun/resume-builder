@@ -1,0 +1,128 @@
+
+.mainDiv{
+
+  background: white;
+  flex-wrap: wrap;
+  display:flex;
+  justify-content: space-between;
+
+}
+.leftDiv{
+  text-align: center;
+/*background:#F0F79D;*/
+background: black;
+color: white;
+width:29.5%;
+height:auto;
+
+
+position:fixed;
+
+}
+.rightDiv{
+  margin-left: 30%;
+  float:right;
+width:70%;
+background:cyan;
+padding:10px;
+}
+.image1{
+  margin-top:2%;
+  width:50%;
+  border-radius:20%;
+
+}
+table{
+  width:100%;
+border:2px solid black;
+
+}
+th{
+  width:25%;
+  border:2px solid black;
+}
+td{
+  width:25%;
+  border:2px solid black;
+}
+tr:nth-child(1){
+  background:#F79DE1
+}
+
+@media all and (max-width:468px) {
+table{
+  width:100%;
+  border:1px solid black;
+}
+th{
+  width:25%;
+  border:1px solid black;
+}
+td{
+  width:25%;
+  border:1px solid black;
+}
+tr:nth-child(1){
+  background:#F79DE1
+}
+.leftDiv{
+  text-align: center;
+/*background:#F0F79D;*/
+background:rgb(0,0,0,0.9);
+color: white;
+width:100%;
+height:auto;
+margin-bottom:5%;
+position:relative;
+
+
+}
+.rightDiv{
+  margin-top: 1%;
+  margin-left:auto;
+  /*float:right;*/
+  float:none;
+width:100%;
+background:rgb(157,203,247,0.7);
+
+}
+}
+
+
+
+
+@media only screen and (max-width:768px) and (min-width:469px){
+  .mainDiv{
+    width:100%;
+    background:#C0F79D;
+    flex-wrap:wrap;
+
+  }
+  .leftDiv{
+    text-align: center;
+
+
+    /*background:#F0F79D;*/
+    background:rgb(0,0,0,0.9);
+    color: white;
+    width:100%;
+    height:auto;
+    margin-bottom:5%;
+    position:relative;
+
+  }
+  .lchild1{
+    width:50%;
+    float:left;
+
+  }
+  .rightDiv{
+    margin-top: 1%;
+    margin-left:auto;
+    /*float:right;*/
+    float:none;
+  width:100%;
+  background:rgb(157,203,247,0.7);
+
+  }
+}
